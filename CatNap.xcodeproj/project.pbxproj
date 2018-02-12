@@ -20,6 +20,7 @@
 		1F53AC6F20322FB4008014FF /* win.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1F53AC6A20322FB4008014FF /* win.mp3 */; };
 		1F53AC7020322FB4008014FF /* lose.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1F53AC6B20322FB4008014FF /* lose.mp3 */; };
 		1F53AC7120322FB4008014FF /* backgroundMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1F53AC6C20322FB4008014FF /* backgroundMusic.mp3 */; };
+		1F53AC742032369B008014FF /* Cat.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1F53AC732032369B008014FF /* Cat.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		1F53AC6A20322FB4008014FF /* win.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = win.mp3; sourceTree = "<group>"; };
 		1F53AC6B20322FB4008014FF /* lose.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lose.mp3; sourceTree = "<group>"; };
 		1F53AC6C20322FB4008014FF /* backgroundMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = backgroundMusic.mp3; sourceTree = "<group>"; };
+		1F53AC732032369B008014FF /* Cat.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Cat.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,9 +72,9 @@
 		1F53AC4E202EA3D8008014FF /* CatNap */ = {
 			isa = PBXGroup;
 			children = (
+				1F53AC7220323635008014FF /* Scenes */,
 				1F53AC6720322FB4008014FF /* Sounds */,
 				1F53AC4F202EA3D8008014FF /* AppDelegate.swift */,
-				1F53AC51202EA3D8008014FF /* GameScene.sks */,
 				1F53AC53202EA3D8008014FF /* Actions.sks */,
 				1F53AC55202EA3D8008014FF /* GameScene.swift */,
 				1F53AC57202EA3D8008014FF /* GameViewController.swift */,
@@ -94,6 +96,15 @@
 				1F53AC6C20322FB4008014FF /* backgroundMusic.mp3 */,
 			);
 			path = Sounds;
+			sourceTree = "<group>";
+		};
+		1F53AC7220323635008014FF /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				1F53AC51202EA3D8008014FF /* GameScene.sks */,
+				1F53AC732032369B008014FF /* Cat.sks */,
+			);
+			path = Scenes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,6 +176,7 @@
 				1F53AC6E20322FB4008014FF /* pop.mp3 in Resources */,
 				1F53AC7120322FB4008014FF /* backgroundMusic.mp3 in Resources */,
 				1F53AC54202EA3D8008014FF /* Actions.sks in Resources */,
+				1F53AC742032369B008014FF /* Cat.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
