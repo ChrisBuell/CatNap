@@ -21,6 +21,8 @@
 		1F53AC7020322FB4008014FF /* lose.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1F53AC6B20322FB4008014FF /* lose.mp3 */; };
 		1F53AC7120322FB4008014FF /* backgroundMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1F53AC6C20322FB4008014FF /* backgroundMusic.mp3 */; };
 		1F53AC742032369B008014FF /* Cat.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1F53AC732032369B008014FF /* Cat.sks */; };
+		1FD744A72033636200E78551 /* CatCurl.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1FD744A62033636200E78551 /* CatCurl.sks */; };
+		1FD744A92033649700E78551 /* CatWakeUp.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1FD744A82033649700E78551 /* CatWakeUp.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,8 @@
 		1F53AC6B20322FB4008014FF /* lose.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lose.mp3; sourceTree = "<group>"; };
 		1F53AC6C20322FB4008014FF /* backgroundMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = backgroundMusic.mp3; sourceTree = "<group>"; };
 		1F53AC732032369B008014FF /* Cat.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Cat.sks; sourceTree = "<group>"; };
+		1FD744A62033636200E78551 /* CatCurl.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = CatCurl.sks; sourceTree = "<group>"; };
+		1FD744A82033649700E78551 /* CatWakeUp.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = CatWakeUp.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 			children = (
 				1F53AC51202EA3D8008014FF /* GameScene.sks */,
 				1F53AC732032369B008014FF /* Cat.sks */,
+				1FD744A62033636200E78551 /* CatCurl.sks */,
+				1FD744A82033649700E78551 /* CatWakeUp.sks */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -170,6 +176,8 @@
 				1F53AC52202EA3D8008014FF /* GameScene.sks in Resources */,
 				1F53AC7020322FB4008014FF /* lose.mp3 in Resources */,
 				1F53AC5D202EA3D8008014FF /* Assets.xcassets in Resources */,
+				1FD744A92033649700E78551 /* CatWakeUp.sks in Resources */,
+				1FD744A72033636200E78551 /* CatCurl.sks in Resources */,
 				1F53AC6F20322FB4008014FF /* win.mp3 in Resources */,
 				1F53AC60202EA3D8008014FF /* LaunchScreen.storyboard in Resources */,
 				1F53AC6D20322FB4008014FF /* mrreow.mp3 in Resources */,
