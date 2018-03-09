@@ -21,6 +21,22 @@
 		1F53AC7020322FB4008014FF /* lose.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1F53AC6B20322FB4008014FF /* lose.mp3 */; };
 		1F53AC7120322FB4008014FF /* backgroundMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1F53AC6C20322FB4008014FF /* backgroundMusic.mp3 */; };
 		1F53AC742032369B008014FF /* Cat.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1F53AC732032369B008014FF /* Cat.sks */; };
+		1F6A259F204F4A7500769F83 /* BedNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6A259E204F4A7500769F83 /* BedNode.swift */; };
+		1F6A25A1204F545300769F83 /* CatNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6A25A0204F545300769F83 /* CatNode.swift */; };
+		1F6A25AF205060AD00769F83 /* SKColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6A25A3205060AD00769F83 /* SKColor+Extensions.swift */; };
+		1F6A25B0205060AD00769F83 /* CGVector+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6A25A4205060AD00769F83 /* CGVector+Extensions.swift */; };
+		1F6A25B1205060AD00769F83 /* Int+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6A25A5205060AD00769F83 /* Int+Extensions.swift */; };
+		1F6A25B2205060AD00769F83 /* SKTTimingFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6A25A6205060AD00769F83 /* SKTTimingFunctions.swift */; };
+		1F6A25B3205060AD00769F83 /* SKAction+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6A25A7205060AD00769F83 /* SKAction+Extensions.swift */; };
+		1F6A25B4205060AD00769F83 /* SKAction+SpecialEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6A25A8205060AD00769F83 /* SKAction+SpecialEffects.swift */; };
+		1F6A25B5205060AD00769F83 /* SKNode+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6A25A9205060AD00769F83 /* SKNode+Extensions.swift */; };
+		1F6A25B6205060AD00769F83 /* CGPoint+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6A25AA205060AD00769F83 /* CGPoint+Extensions.swift */; };
+		1F6A25B7205060AD00769F83 /* SKTEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6A25AB205060AD00769F83 /* SKTEffects.swift */; };
+		1F6A25B8205060AD00769F83 /* SKTAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6A25AC205060AD00769F83 /* SKTAudio.swift */; };
+		1F6A25B9205060AD00769F83 /* Vector3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6A25AD205060AD00769F83 /* Vector3.swift */; };
+		1F6A25BA205060AD00769F83 /* CGFloat+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6A25AE205060AD00769F83 /* CGFloat+Extensions.swift */; };
+		1F6A25BC2051A83800769F83 /* BlockNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6A25BB2051A83800769F83 /* BlockNode.swift */; };
+		1F6A25BE2052E63100769F83 /* MessageNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6A25BD2052E63100769F83 /* MessageNode.swift */; };
 		1FD744A72033636200E78551 /* CatCurl.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1FD744A62033636200E78551 /* CatCurl.sks */; };
 		1FD744A92033649700E78551 /* CatWakeUp.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1FD744A82033649700E78551 /* CatWakeUp.sks */; };
 /* End PBXBuildFile section */
@@ -42,6 +58,22 @@
 		1F53AC6B20322FB4008014FF /* lose.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lose.mp3; sourceTree = "<group>"; };
 		1F53AC6C20322FB4008014FF /* backgroundMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = backgroundMusic.mp3; sourceTree = "<group>"; };
 		1F53AC732032369B008014FF /* Cat.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Cat.sks; sourceTree = "<group>"; };
+		1F6A259E204F4A7500769F83 /* BedNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BedNode.swift; sourceTree = "<group>"; };
+		1F6A25A0204F545300769F83 /* CatNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatNode.swift; sourceTree = "<group>"; };
+		1F6A25A3205060AD00769F83 /* SKColor+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKColor+Extensions.swift"; sourceTree = "<group>"; };
+		1F6A25A4205060AD00769F83 /* CGVector+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGVector+Extensions.swift"; sourceTree = "<group>"; };
+		1F6A25A5205060AD00769F83 /* Int+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+Extensions.swift"; sourceTree = "<group>"; };
+		1F6A25A6205060AD00769F83 /* SKTTimingFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKTTimingFunctions.swift; sourceTree = "<group>"; };
+		1F6A25A7205060AD00769F83 /* SKAction+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKAction+Extensions.swift"; sourceTree = "<group>"; };
+		1F6A25A8205060AD00769F83 /* SKAction+SpecialEffects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKAction+SpecialEffects.swift"; sourceTree = "<group>"; };
+		1F6A25A9205060AD00769F83 /* SKNode+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SKNode+Extensions.swift"; sourceTree = "<group>"; };
+		1F6A25AA205060AD00769F83 /* CGPoint+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGPoint+Extensions.swift"; sourceTree = "<group>"; };
+		1F6A25AB205060AD00769F83 /* SKTEffects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKTEffects.swift; sourceTree = "<group>"; };
+		1F6A25AC205060AD00769F83 /* SKTAudio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKTAudio.swift; sourceTree = "<group>"; };
+		1F6A25AD205060AD00769F83 /* Vector3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vector3.swift; sourceTree = "<group>"; };
+		1F6A25AE205060AD00769F83 /* CGFloat+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGFloat+Extensions.swift"; sourceTree = "<group>"; };
+		1F6A25BB2051A83800769F83 /* BlockNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockNode.swift; sourceTree = "<group>"; };
+		1F6A25BD2052E63100769F83 /* MessageNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageNode.swift; sourceTree = "<group>"; };
 		1FD744A62033636200E78551 /* CatCurl.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = CatCurl.sks; sourceTree = "<group>"; };
 		1FD744A82033649700E78551 /* CatWakeUp.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = CatWakeUp.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -76,11 +108,16 @@
 		1F53AC4E202EA3D8008014FF /* CatNap */ = {
 			isa = PBXGroup;
 			children = (
+				1F6A25A2205060AD00769F83 /* SKTUtils */,
 				1F53AC7220323635008014FF /* Scenes */,
 				1F53AC6720322FB4008014FF /* Sounds */,
 				1F53AC4F202EA3D8008014FF /* AppDelegate.swift */,
 				1F53AC53202EA3D8008014FF /* Actions.sks */,
 				1F53AC55202EA3D8008014FF /* GameScene.swift */,
+				1F6A25BD2052E63100769F83 /* MessageNode.swift */,
+				1F6A25BB2051A83800769F83 /* BlockNode.swift */,
+				1F6A25A0204F545300769F83 /* CatNode.swift */,
+				1F6A259E204F4A7500769F83 /* BedNode.swift */,
 				1F53AC57202EA3D8008014FF /* GameViewController.swift */,
 				1F53AC59202EA3D8008014FF /* Main.storyboard */,
 				1F53AC5C202EA3D8008014FF /* Assets.xcassets */,
@@ -111,6 +148,25 @@
 				1FD744A82033649700E78551 /* CatWakeUp.sks */,
 			);
 			path = Scenes;
+			sourceTree = "<group>";
+		};
+		1F6A25A2205060AD00769F83 /* SKTUtils */ = {
+			isa = PBXGroup;
+			children = (
+				1F6A25A3205060AD00769F83 /* SKColor+Extensions.swift */,
+				1F6A25A4205060AD00769F83 /* CGVector+Extensions.swift */,
+				1F6A25A5205060AD00769F83 /* Int+Extensions.swift */,
+				1F6A25A6205060AD00769F83 /* SKTTimingFunctions.swift */,
+				1F6A25A7205060AD00769F83 /* SKAction+Extensions.swift */,
+				1F6A25A8205060AD00769F83 /* SKAction+SpecialEffects.swift */,
+				1F6A25A9205060AD00769F83 /* SKNode+Extensions.swift */,
+				1F6A25AA205060AD00769F83 /* CGPoint+Extensions.swift */,
+				1F6A25AB205060AD00769F83 /* SKTEffects.swift */,
+				1F6A25AC205060AD00769F83 /* SKTAudio.swift */,
+				1F6A25AD205060AD00769F83 /* Vector3.swift */,
+				1F6A25AE205060AD00769F83 /* CGFloat+Extensions.swift */,
+			);
+			path = SKTUtils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,7 +252,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F53AC56202EA3D8008014FF /* GameScene.swift in Sources */,
+				1F6A25BE2052E63100769F83 /* MessageNode.swift in Sources */,
+				1F6A25B3205060AD00769F83 /* SKAction+Extensions.swift in Sources */,
+				1F6A25B2205060AD00769F83 /* SKTTimingFunctions.swift in Sources */,
+				1F6A25B0205060AD00769F83 /* CGVector+Extensions.swift in Sources */,
+				1F6A25B6205060AD00769F83 /* CGPoint+Extensions.swift in Sources */,
+				1F6A25B4205060AD00769F83 /* SKAction+SpecialEffects.swift in Sources */,
+				1F6A25B8205060AD00769F83 /* SKTAudio.swift in Sources */,
+				1F6A25B5205060AD00769F83 /* SKNode+Extensions.swift in Sources */,
+				1F6A25B7205060AD00769F83 /* SKTEffects.swift in Sources */,
+				1F6A25BC2051A83800769F83 /* BlockNode.swift in Sources */,
+				1F6A25AF205060AD00769F83 /* SKColor+Extensions.swift in Sources */,
+				1F6A25A1204F545300769F83 /* CatNode.swift in Sources */,
+				1F6A259F204F4A7500769F83 /* BedNode.swift in Sources */,
+				1F6A25B1205060AD00769F83 /* Int+Extensions.swift in Sources */,
 				1F53AC58202EA3D8008014FF /* GameViewController.swift in Sources */,
+				1F6A25BA205060AD00769F83 /* CGFloat+Extensions.swift in Sources */,
+				1F6A25B9205060AD00769F83 /* Vector3.swift in Sources */,
 				1F53AC50202EA3D8008014FF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
